@@ -2,7 +2,7 @@ CXX := g++
 CXXFLAGS := -O3
 SRCS := $(wildcard *.cpp)
 OBJS := $(SRCS:.cpp=.o)
-TARGET := main_space
+TARGET := STARS
 
 all: $(TARGET)
 
