@@ -1,13 +1,14 @@
 # STARS
 
-This code is the implementation of our research paper "**STARS: A Sampling and Threshold Sharing Solution for Network  K-function Analytics**". Based on our theoretiacl analysis in this paper, this method can further reduce the tiem complexity for generating Network K-function plot.
+This code is the implementation of our research paper "**STARS: A Sampling and Threshold Sharing Solution for Network  K-function Analytics**". Based on our theoretiacl analysis in this paper, this method can further reduce the time complexity for generating Network K-function plot. 
+
+Due to space limitations in this Github link, we do not upload the datasets. However, since all datasets are open to public, readers can simply download these datasets from the source webpages. To call our code properly, readers need to process these datasets based on our input file structure, which is shown in the file "[file_structure.txt](./file_structure.txt)".
 
 
 
 ## Code Descriptions
 
-The file "[sam_count.cpp](./src/sam_count.cpp)" shows the implemetnation of the method STARS.
-
+The file "[sam_count.cpp](./src/sam_count.cpp)" shows the implementation of the method STARS.
 
 
 ## Quick Start
@@ -39,7 +40,7 @@ g++ ./src/*.cpp -O3 -o STARS
 ## Data format 
 
 
-See see [file_structure.txt](./file_structure.txt) for specifications and [example dataset](./data/example_network) for a concrete example.
+See [file_structure.txt](./file_structure.txt) for specifications and [example dataset](./data/example_network) for a concrete example.
 
 ## Usage
 
