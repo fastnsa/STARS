@@ -2,7 +2,6 @@
 
 This code is the implementation of our research paper "**STARS: A Sampling and Threshold Sharing Solution for Network  K-function Analytics**". Based on our theoretiacl analysis in this paper, this method can further reduce the tiem complexity for generating Network K-function plot.
 
-This code integrates the methods from [NeighbourSharing](https://github.com/edisonchan2013928/Network-K-function) and extends the implementation of our STARS method.
 
 
 ## Code Descriptions
