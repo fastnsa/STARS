@@ -36,7 +36,6 @@ For direct compilation without CMake:
 g++ ./src/*.cpp -O3 -o STARS
 ```
 
-### 
 
 ## Data format 
 
@@ -70,12 +69,12 @@ See see [file_structure.txt](./file_structure.txt) for specifications and [examp
 
 |**Code**|	**Method**|	**Description**|
 |:----|:----|:----|
-1	|RQS	|Range-Query Searching
+1	|RQS	|Range-Query-based Solution
 2	|SPS	|Shortest Path Sharing
-3	|CA	 |Count Aggregation
+3	|CA	 |Count Augmentation
 4	|NS	|Neighbor Sharing
-5	|CA<sup>(ASPS)</sup>	|Adaptive SPS with CA
-6	|NS<sup>(ASPS)</sup>	|Adaptive SPS with NS
+5	|CA<sup>(ASPS)</sup>	|Advanced SPS with CA
+6	|NS<sup>(ASPS)</sup>	|Advanced SPS with NS
 7	|STARS	|Proposed Method (Threshold Sharing + Sampling)
 8	|SAMPLING+NS	|NS with sampling
 
