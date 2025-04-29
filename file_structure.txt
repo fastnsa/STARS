@@ -1,0 +1,11 @@
+[Number of nodes |V|] [Number of edges |E|]
+(1^{st} edge id) [first node id] [second node id] [road length] [Number of data points N_1 in this edge] [distance from the [1^{st} data point] to [first node id]] [distance from the [1^{st} data point] to [second node id]] [distance from the [2^{nd} data point] to [first node id]] [distance from the [2^{nd} data point] to [second node id]] ... [distance from the [{N_1}^{th} data point] to [first node id]] [distance from the [{N_1}^{th} data point] to [second node id]]
+(2^{nd} edge id) [first node id] [second node id] [road length] [Number of data points N_2 in this edge] [distance from the [1^{st} data point] to [first node id]] [distance from the [1^{st} data point] to [second node id]] [distance from the [2^{nd} data point] to [first node id]] [distance from the [2^{nd} data point] to [second node id]] ... [distance from the [{N_2}^{th} data point] to [first node id]] [distance from the [{N_2}^{th} data point] to [second node id]]
+:
+:
+(|E|^{th} edge id) [first node id] [second node id] [road length] [Number of data points N_{|E|} in this edge] [distance from the [1^{st} data point] to [first node id]] [distance from the [1^{st} data point] to [second node id]] [distance from the [2^{nd} data point] to [first node id]] [distance from the [2^{nd} data point] to [second node id]] ... [distance from the [{N_|E|}^{th} data point] to [first node id]] [distance from the [{N_|E|}^{th} data point] to [second node id]]
+[Number of nodes |V|]
+
+
+----------------------------------------------------------------------
+We first store the number of nodes |V| and the number of edges |E|. And then |E| lines store the edge message.  ++todo
