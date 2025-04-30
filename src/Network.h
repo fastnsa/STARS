@@ -43,7 +43,7 @@ struct comparePriority
 	}
 };
 
-//
+//Used in the multi-way merge sort, store the value of tau_u (or tau_v) and its corresponding position in the original array.
 struct heapValue
 {
     double val;

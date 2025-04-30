@@ -236,7 +236,7 @@ void call_ASPS(model& our_model)
 	}
 }
 
-void call_SAM(model& our_model){
+void call_STARS(model& our_model){
 
 	int e_index;
 	int node_u, node_v;
@@ -308,17 +308,13 @@ void call_SAM(model& our_model){
 					our_model.sp_node_vec_second[node_v].cur_sp_value > our_model.tau_vec[our_model.D-1])
 					break;
 
-					// multi_k =sam_edge_edge_count(our_model,wide_e_index,e_index);
 					if(our_model.method==7)
-						sam_edge_edge_count3(our_model,wide_e_index,e_index); //sam_tau_sharing
+						sam_edge_edge_count3(our_model,wide_e_index,e_index); //STARS: Sampling + Threshold Sharing
 					if(our_model.method==8)
-						sam_edge_edge_count2(our_model,wide_e_index,e_index); //only sam
-
-					// sam_edge_edge_count2(our_model,wide_e_index,e_index);
+						sam_edge_edge_count2(our_model,wide_e_index,e_index); //NS+sampling
 				}
 				else
 				{
-					// multi_k=sam_edge_edge_count_same_edge(our_model,wide_e_index);
 					sam_edge_edge_count_same_edge(our_model,wide_e_index);
 				}
 			}
@@ -371,8 +367,8 @@ void compute_K_function(model& our_model)
 	if (our_model.method >= 5 && our_model.method <= 6)
 		call_ASPS(our_model);
 
-	if(our_model.method >= 7 && our_model.method <= 8){ //SAM
-		call_SAM(our_model);
+	if(our_model.method >= 7 && our_model.method <= 8){ //STARS
+		call_STARS(our_model);
 	}
 
 	auto end_s = chrono::high_resolution_clock::now();
