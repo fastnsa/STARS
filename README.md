@@ -1,6 +1,6 @@
 # STARS
 
-This code is the implementation of our research paper "**STARS: A Sampling and Threshold Sharing Solution for Network  K-function Analytics**". Based on our theoretiacl analysis in this paper, this method can further reduce the time complexity for generating Network K-function plot. 
+This code is the implementation of our research paper "**STARS: A Sampling and Threshold Sharing Solution for Network  K-function Analytics**". Based on our theoretical analysis in this paper, this method can further reduce the time complexity for generating Network K-function plot. 
 
 Due to space limitations in this Github link, we do not upload the datasets. However, since all datasets are open to public, readers can simply download these datasets from the source webpages. To call our code properly, readers need to process these datasets based on our input file structure, which is shown in the file "[file_structure.txt](./file_structure.txt)".
 
