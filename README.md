@@ -9,6 +9,9 @@ Due to space limitations in this Github link, we do not upload the datasets. How
 ## Code Descriptions
 
 The file "[sam_count.cpp](./src/sam_count.cpp)" shows the implementation of the method STARS.
+For implementation details of the threshold sharing mechanism used in STARS (Section 3.2), please refer to:
+
+👉 [`docs/threshold_sharing.md`](docs/threshold_sharing.md)
 
 
 ## Quick Start
